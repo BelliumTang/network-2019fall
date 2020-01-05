@@ -27,8 +27,7 @@
 - 工作方式上，计算机网络可分为边缘部分(network edge)和核心部分(network core)
   - 边缘部分: applications and hosts 提供服务
     - end systems, client/server model, peer-peer model
-  - 核心部分: networks and routers [数据交换]()
-    - 
+  - 核心部分: networks and routers 数据交换
 - 功能组成上，计算机网络由通信子网和资源子网组成
 
 功能
@@ -64,14 +63,6 @@
       - 优点：现在的主流网络基本上都可视为分组交换网络
       - 缺点：需要额外的拆分和重组
 6. 按传输介质：有线、无线
-
-
-
-standards:
-
- RFC: Request for comments
-
- IETF: Internet Engineering Task Force
 
 ### b:计算机网络性能指标（速率、带宽、时延、时延带宽积、吞吐量）
 
