@@ -65,5 +65,6 @@ TCP提供的是面向连接的服务，UDP提供的是无连接服务。
   - 拥塞避免：当`cwnd > sshtresh`时，每经过一个RTT，`cwnd`加1
   - 快重传：当收到连续的3个冗余ACK，直接重传对方期待的报文
   - 快恢复：当收到连续的3个冗余ACK，令`ssthresh = cwnd = cwnd/2`
-- 拥塞处理：`ssthresh`置为原`cwnd`的一半，`cwnd`置1
+- 超时：`ssthresh`置为原`cwnd`的一半，`cwnd`置1
+- 连续收到3个ACK：`ssthresh`置为原`cwnd`的一半，令`ssthresh = cwnd = cwnd/2`
 
